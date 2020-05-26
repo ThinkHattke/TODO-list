@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <Button
-        android:id="@+id/my_button"
-        android:layout_centerInParent="true"
-        android:text="Random"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/set"
+        android:layout_gravity="end|bottom"
+        android:text="Set As Wallpaper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-</RelativeLayout>
+</FrameLayout>
